@@ -1,0 +1,24 @@
+/* (*) Universal selector lines 2-7 need to be applied to all css documents before coding in css
+Margin refers to the space outside the content
+Padding refers around the content
+border refers to the space around the padding
+*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:has(h1, h2, h3, h4, h5, h6) {
+    text-align: center;
+    color :  #378744;  
+}
+
+    /*padding: top right bottom left;
+      padding: top right bottom;
+      padding: (top and bottom);(left and right)  
+      padding-inline: 10px (left and right)
+      padding-block: 10px (top and bottom)*/
+}
